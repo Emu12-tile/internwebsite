@@ -975,7 +975,7 @@ px-[14px] ">
                                                     <h4 class="font-semibold text-dark text-xl">
                                                         {{ $testimony->name }}
                                                     </h4>
-                                                    <p class="text-body-color text-base">
+                                                    <p class="text-body-color text-base  mb-20">
                                                         {{ $testimony->role }}
                                                     </p>
                                                 </div>
@@ -996,6 +996,7 @@ px-[14px] ">
                   justify-center
                   lg:pl-[120px]
                   2xl:pl-0
+                
                   ">
                                 <button
                                     class="
@@ -1078,7 +1079,7 @@ px-[14px] ">
                                 style="height:300px;"alt="">
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                                 <a href="uploads/images/{{ $image->images }}" data-lightbox="portfolio">
-                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                    {{-- <i class="fa fa-plus text-white" style="font-size: 60px;"></i> --}}
                                 </a>
                             </div>
                         </div>
@@ -1091,10 +1092,10 @@ px-[14px] ">
          <div class="bg-white rounded-lg mb-10"> --}}
 
         <!-- ====== Video Section Start -->
-        <div class="swiper mySwiper container">
-            <div class="swiper-wrapper">
+        <div class=" container">
+            <div class=" flex flex-wrap -mx-4">
                 @foreach ($videos as $video)
-                    <div class=" swiper-slide col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class=" col-lg-4 col-md-6 mb-4 portfolio-item third">
                         <div class="position-relative overflow-hidden mb-2">
 
                             <div x-data="{
@@ -1115,7 +1116,7 @@ px-[14px] ">
                                             <!-- Play Video -->
                                             <a href="javascript:void(0)" @click="videoOpen = true; url = videoUrl"
                                                 class="flex items-center justify-center w-20 md:w-[70px] h-20 md:h-[70px] rounded-full bg-white text-primary absolute z-20">
-                                                   <span
+                                                <span
                                                     class="absolute w-full h-full rounded-full top-0 right-0 bg-white bg-opacity-20 z-[-1] animate-ping delay-300 duration-1000"></span>
 
                                                 <!-- Play Icon -->

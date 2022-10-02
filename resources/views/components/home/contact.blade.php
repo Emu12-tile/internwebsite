@@ -16,14 +16,15 @@
                    max-w-[60px]
                    sm:max-w-[70px]
                    w-full
-                   h-[60px]
+                   h-[40px]
                    sm:h-[70px]
                    flex
                    items-center
                    justify-center
-                   mr-6
+                   mr-4
+                   ml-5
                    overflow-hidden
-                   bg-primary bg-opacity-5
+                   bg-opacity-5
                    text-primary
                    dark:text-gray-300
                    rounded
@@ -34,10 +35,8 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="font-bold text-dark dark:text-gray-200 text-xl mb-1">
-                                Email Address
-                            </h4>
-                            <p class="text-base text-body-color dark:text-gray-300">emuaniley@gmail.com</p>
+
+                            <p class="text-base text-body-color dark:text-gray-300 mt-3 mr-5">emuaniley@gmail.com</p>
                         </div>
                     </div>
                 </div>
