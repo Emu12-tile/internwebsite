@@ -1,6 +1,6 @@
 {
     "private": true,
-"homepage": "https://github.com/Emu12-tile/internwebsite/portfolio-project",
+
     "scripts": {
         "dev": "npm run development",
         "development": "mix",

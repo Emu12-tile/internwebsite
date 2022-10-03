@@ -27,29 +27,32 @@
                                         {{-- {{ $slot }} --}}
 
 
-                                        <li><a class="text-xs font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
+                                        <li><a class=" font-medium text-white  text-sm py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
                                                 href="/#home">Home</a></li>
-                                        <li><a class="text-xs font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
+                                        <li><a class="text-sm font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
                                                 href="/#about">About</a></li>
-                                        <li><a
-                                                class="text-xs font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"href="/#services">Services</a>
-                                        </li>
-                                        <li><a class="text-xs font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
+                                        <li><a class="text-sm font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
+                                                href="/#experience" class="menu-btn">Experience</a></li>
+                                        <li><a class="text-sm font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
                                                 href="/#portfolio" class="menu-btn">Portfolio</a></li>
                                         <li><a
-                                                class="text-xs font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"href="/#blog">Blog</a>
+                                                class="text-sm font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"href="/#services">Services</a>
                                         </li>
-                                        <li><a class="text-xs font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
-                                                href="/#experience" class="menu-btn">Experience</a></li>
+
                                         <li><a
-                                                class="text-xs font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"href="/#teams">Teams</a>
+                                                class="text-sm font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"href="/#blog">Blog</a>
                                         </li>
-                                        <li><a class="text-xs font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
+
+                                        <li><a
+                                                class="text-sm font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"href="/#teams">Teams</a>
+                                        </li>
+                                        <li><a class="text-sm font-medium text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
                                                 href="/#gallery" class="menu-btn">Gallery</a></li>
-                                        <li><a class="text-xs font-large text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
+                                        <li><a class="text-sm font-large text-white py-4 flex hover:text-primary dark:text-gray-200 lg:inline-flex lg:ml-6 xl:ml-12"
                                                 href="/#contact" class="menu-btn">Contact</a></li>
-                                        <li><a href="#subscribe" class="btn btn-outline-danger lg:ml-6 xl:ml-12 "
-                                                href="#subscribe">subscribe</a></li>
+                                        <li><a href="#subscribe"
+                                                class="btn btn-outline-danger lg:ml-6 xl:ml-12 text-white  "
+                                                href="/#subscribe">subscribe</a></li>
 
                                     </ul>
                                 </nav>
@@ -79,7 +82,7 @@
 
 
 
-                        <x-about-dots></x-about-dots>
+
                     </div>
 
                 </div>

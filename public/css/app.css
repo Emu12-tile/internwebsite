@@ -43624,6 +43624,11 @@ input:checked ~ .dot .active{
   color: rgb(12 113 135 / var(--tw-text-opacity));
 }
   
+  .dark .dark\:text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+  
   .dark .hover\:dark\:border-primary:hover{
   --tw-border-opacity: 1;
   border-color: rgb(12 113 135 / var(--tw-border-opacity));
