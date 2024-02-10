@@ -45,9 +45,11 @@ class DetailController extends Controller
   {
     $service = Service::find($id);
     $homes = Home::all();
+    $socials = Social::all();
     return view('service-detail', [
       'service' => $service,
-      'homes' => $homes
+      'homes' => $homes,
+      'socials' => $socials
     ]);
   }
 }

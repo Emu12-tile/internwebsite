@@ -54,42 +54,42 @@ use App\View\Components\layout\Navbar;
 //     return view('home');
 // });
 
-Route::get('/index', function () {
-  $templates = Template::all()->where('status', 1);
-  $homes = Home::all();
-  $abouts = About::all();
-  $projects = Project::all()->where('status', 1);
-  $services = Service::all()->where('status', 1);
-  $educations = Education::all()->where('status', 1);
-  $experiences = Experience::all()->where('status', 1);
-  $blogs = Blog::all()->where('status', 1);
-  $testimonies = Testimony::all()->where('status', 1);
-  $profiles = Profile::all();
-  $teams = Team::all()->where('status', 1);
-  $images = Image::all()->where('status', 1);
-  $videos = Video::all()->where('status', 1);
-  $sections = Section::all();
-  //  ->where ('status','1');
-  $socials = Social::all();
+// Route::get('/', function () {
+//   $templates = Template::all()->where('status', 1);
+//   $homes = Home::all();
+//   $abouts = About::all();
+//   $projects = Project::all()->where('status', 1);
+//   $services = Service::all()->where('status', 1);
+//   $educations = Education::all()->where('status', 1);
+//   $experiences = Experience::all()->where('status', 1);
+//   $blogs = Blog::all()->where('status', 1);
+//   $testimonies = Testimony::all()->where('status', 1);
+//   $profiles = Profile::all();
+//   $teams = Team::all()->where('status', 1);
+//   $images = Image::all()->where('status', 1);
+//   $videos = Video::all()->where('status', 1);
+//   $sections = Section::all();
 
-  return view('index', [
-    'templates' => $templates,
-    'homes' => $homes,
-    'abouts' => $abouts,
-    'projects' => $projects,
-    'services' => $services,
-    'educations' => $educations,
-    'experiences' => $experiences,
-    'blogs' => $blogs,
-    'testimonies' => $testimonies,
-    'teams' => $teams,
-    'profiles' => $profiles,
-    'images' => $images,
-    'videos' => $videos,
-    'sections' => $sections,
-    'socials' => $socials
-  ]);
-});
+//   $socials = Social::all();
+
+//   return view('index', [
+//     'templates' => $templates,
+//     'homes' => $homes,
+//     'abouts' => $abouts,
+//     'projects' => $projects,
+//     'services' => $services,
+//     'educations' => $educations,
+//     'experiences' => $experiences,
+//     'blogs' => $blogs,
+//     'testimonies' => $testimonies,
+//     'teams' => $teams,
+//     'profiles' => $profiles,
+//     'images' => $images,
+//     'videos' => $videos,
+//     'sections' => $sections,
+//     'socials' => $socials
+//   ]);
+// });
 Route::get('/', function () {
   $templates = Template::all()->where('status', 1);
   $homes = Home::all();
@@ -110,7 +110,9 @@ Route::get('/', function () {
 
   // ->where('status','1')
 
-  return view('home', [
+
+
+  return  view('home', [
     'homes' => $homes,
     'abouts' => $abouts,
     'projects' => $projects,
@@ -127,6 +129,45 @@ Route::get('/', function () {
     'socials' => $socials,
     'templates' => $templates
 
+  ]);
+});
+Route::get('/index', function () {
+  $templates = Template::all()->where('status', 1);
+  $homes = Home::all();
+  $abouts = About::all();
+  $projects = Project::all()->where('status', 1);
+  $services = Service::all()->where('status', 1);
+  $educations = Education::all()->where('status', 1);
+  $experiences = Experience::all()->where('status', 1);
+  $blogs = Blog::all()->where('status', 1);
+  $testimonies = Testimony::all()->where('status', 1);
+  $profiles = Profile::all();
+  $teams = Team::all()->where('status', 1);
+  $images = Image::all()->where('status', 1);
+  $videos = Video::all()->where('status', 1);
+  $sections = Section::all();
+  //  ->where ('status','1');
+  $socials = Social::all();
+
+  // ->where('status','1')
+
+
+  return view('index', [
+    'templates' => $templates,
+    'homes' => $homes,
+    'abouts' => $abouts,
+    'projects' => $projects,
+    'services' => $services,
+    'educations' => $educations,
+    'experiences' => $experiences,
+    'blogs' => $blogs,
+    'testimonies' => $testimonies,
+    'teams' => $teams,
+    'profiles' => $profiles,
+    'images' => $images,
+    'videos' => $videos,
+    'sections' => $sections,
+    'socials' => $socials
   ]);
 
   //  return view('blo',[

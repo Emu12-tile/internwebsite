@@ -79,21 +79,21 @@
 
     </div>
 </li>
-<li class="nav-item">
+{{-- <li class="nav-item">
     <a href="{{ route('section') }}" class="nav-link {{ Request::is('section') ? 'active' : '' }}">
         <i class="nav-icon fas fa-service"></i>
         <p>sec-control</p>
     </a>
-</li>
+</li> --}}
 <li class="nav-item">
     <a href="{{ route('social') }}" class="nav-link {{ Request::is('socials') ? 'active' : '' }}">
         <i class="nav-icon fas fa-service"></i>
         <p>social_icons</p>
     </a>
 </li>
-<li class="nav-item">
+{{-- <li class="nav-item">
     <a href="{{ route('template') }}" class="nav-link {{ Request::is('templates') ? 'active' : '' }}">
         <i class="nav-icon fas fa-service"></i>
         <p>Templates</p>
     </a>
-</li>
+</li> --}}
